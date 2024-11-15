@@ -1,0 +1,19 @@
+[tool.poetry]
+description = ""
+authors = ["berkando <20153948+berkando@users.noreply.github.com>"]
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.12"
+gymnasium = "^1.0.0"
+matplotlib = "^3.9.2"
+pandas = "^2.2.3"
+networkx = "^3.4.2"
+jupyterlab-rise = "^0.42.0"
+pygame = "^2.6.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
